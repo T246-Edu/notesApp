@@ -10,10 +10,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: #7bdaf3;
+  padding-top: 3rem;
 }
 
 .notes {
   background-color: #fff;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 23px;
   height: 400px;
   width: 400px;
@@ -43,7 +45,7 @@ body {
 }
 
 .notes .main {
-  background-color: #fff;
+  background-color: #eee;
   overflow: hidden;
   width: 100%;
   height: 400px;
